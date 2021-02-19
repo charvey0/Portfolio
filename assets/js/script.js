@@ -4,15 +4,15 @@
                     DOM VARIABLES 
 **************************************************/
 
-var title = $("#title").html("Title");
+var title = $("#title").html("Cameron Harvey");
 //var navBar = $("#navbar");
-var navBrand = $("#navBrand").html("Title");
-var nav1 = $("#nav-link-1").html("Nav Link 1");
-var nav2 = $("#nav-link-2").html("Nav LInk 2");
-var nav3 = $("#nav-link-3").html("Nav Link 3");
-var display1 = $("#display1").append("Display 1");
-var display2 = $("#display2").append("Display 2");
-var display3 = $("#display3").append("Display 3");
+var navBrand = $("#navBrand").html("Cameron Harvey");
+var nav1 = $("#nav-link-1").html("Contact");
+var nav2 = $("#nav-link-2").html("Projects");
+var nav3 = $("#nav-link-3").html("About Me");
+var display1 = $("#display1");
+var display2 = $("#display2");
+var display3 = $("#display3");
 var main = $("#main");
 //var footer = $("#footer");
 //var copyright = $("#copyright");
