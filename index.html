@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="./assets/css/style.css">
 
+
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
@@ -35,7 +36,7 @@
 
   <!-- Header -->
   <header id="portfolio">
-    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <!-- <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a> -->
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
       <h1><b>My Portfolio</b></h1>
@@ -129,7 +130,7 @@
       <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
     </div>
     <p>
-      <a href="./README.md"><button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+      <a href="./assets/Resume.pdf" target="_blank"><button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
         <i class="fa fa-download w3-margin-right"></i>Download Resume
       </button></a>
     </p>
@@ -159,20 +160,8 @@
       </div>
     </div>
     <hr class="w3-opacity">
-    <form action="action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
-      </div>
-      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    <form action="mailto:charvey0@gmail.com" method="GET">
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send me a Message</button>
     </form>
   </div>
 
@@ -191,6 +180,10 @@ function w3_open() {
 function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
+}
+
+function sendEmail(subject, message) {
+    window.open(window.open('mailto:charvey0@gmail.com?subject='+subject+'&body='+message));
 }
 </script>
 
