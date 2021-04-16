@@ -4,7 +4,7 @@
 # **Portfolio**
 
 ## Link to GitHub repo:
-[E-Commerce Back End](https://github.com/charvey0/Portfolio)
+[Portfolio](https://github.com/charvey0/Portfolio)
 
 
 # Table of Contents
